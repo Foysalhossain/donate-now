@@ -205,18 +205,38 @@ input:focus {
     align-items: center;
 }
 
-.contribute-details {
-    margin-right: 200px;
+.contribute1-details {
+    margin-right: 100px;
 }
 
-.contribute-details h2 {
+.contribute1-details h2 {
     font-size: 45px;
 }
 
-.contribute-details p {
+.contribute1-details p {
     font-size: 18px;
     color: #707070;
     margin: 25px 0;
 }
 
 /* contribute 2 style */
+.contribute-2 {
+    width: 70%;
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+}
+
+.contribute2-details {
+    margin-left: 100px;
+}
+
+.contribute2-details h2 {
+    font-size: 45px;
+}
+
+.contribute2-details p {
+    font-size: 18px;
+    color: #707070;
+    margin: 25px 0;
+}
