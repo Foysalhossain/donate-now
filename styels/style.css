@@ -103,7 +103,7 @@ nav ul li a {
     border: 2px solid #FF5959;
 }
 
-input {
+.input-1 {
     display: block;
     border: none;
     border-bottom: 2px solid #FF5959;
@@ -112,12 +112,12 @@ input {
     text-align: center;
 }
 
-input::placeholder {
+.input-1::placeholder {
     color: #B3B3B3;
     font-size: 16px;
 }
 
-input:focus {
+.input-1:focus {
     outline: none;
 }
 
@@ -239,4 +239,53 @@ input:focus {
     font-size: 18px;
     color: #707070;
     margin: 25px 0;
+}
+
+/* update area style */
+.updates {
+    width: 50%;
+    margin: auto;
+
+    text-align: center;
+}
+
+.update-details {
+    margin: 80px;
+}
+
+.update-details h2 {
+    font-size: 45px;
+    color: #121212;
+}
+
+.update-details p {
+    font-size: 18px;
+    color: #707070;
+    margin: 25px 0;
+}
+
+.input-update {
+    background: #FFF4D6;
+    padding: 76px 188px;
+}
+
+.input-2 {
+    background-color: #D9D9D9;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.input-2:focus {
+    outline: none;
+}
+
+.btn-sub {
+    color: #ffffff;
+    background-color: #FF5959;
+    border: none;
+    padding: 10px 15px;
+    margin-left: -5px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
 }
