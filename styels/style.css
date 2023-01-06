@@ -10,6 +10,7 @@
     border: none;
     border-radius: 5px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 /* header and navigation style */
@@ -63,4 +64,86 @@ nav ul li a {
     color: #ffffff;
     font-size: 18px;
     margin: 20px;
+}
+
+/* donate section style */
+.donate-section {
+    width: 50%;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.donate-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.donate-description {
+    color: #707070;
+    font-family: 18px;
+    margin: 30px;
+}
+
+.donate-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.donate-box h3 {
+    padding: 30px 24px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.tk-color h3 {
+    background-color: #ff59591d;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+
+input {
+    display: block;
+    border: none;
+    border-bottom: 2px solid #FF5959;
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #B3B3B3;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* donate plan style */
+.donate-plan {
+    width: 50%;
+    margin: auto;
+}
+
+.donate-plan-title {
+    text-align: center;
+}
+
+.donate-plan-title h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.donate-plan-title p {
+    color: #707070;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* donate plan box style */
+.donate-plan-box {
+    display: flex;
+    justify-content: space-between;
 }
